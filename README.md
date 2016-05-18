@@ -4,8 +4,9 @@ hvbench is an open and scalable OpenFlow controller/switch/hyperisor benchmark b
 
 Following projects are related to this project:
 
-  - [hvbench-api](https://git.lkn.ei.tum.de/VSDN-hvbench/hvbench-api): The Python API of hvbench
-  - [hvmonitor](https://git.lkn.ei.tum.de/VSDN-hvbench/hvmonitor): Monitor the resource comsumption of the network hypervisor
+  - [hvbench-api](https://github.com/csieber/hvbench-api): The Python API of hvbench
+  - [hvmonitor](https://github.com/csieber/hvmonitor): Monitor the resource comsumption of a network hypervisor
+  - [tutorial](https://github.com/csieber/hvbench-tutorial): Tutorial on how to set-up and operate hvbench
 
 ## Features
   
