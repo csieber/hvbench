@@ -1,0 +1,20 @@
+zookeeper:
+  image: wurstmeister/zookeeper
+  ports:
+    - "2181:2181"
+kafka:
+  image: wurstmeister/kafka
+  ports:
+    - "9092:9092"
+  links:
+    - zookeeper:zk
+  environment:
+    KAFKA_ADVERTISED_HOST_NAME: 192.168.34.1
+    KAFKA_CREATE_TOPICS: "hvbench:1:1,hvmonitor:1:1"
+  volumes:
+    - /var/run/docker.sock:/var/run/docker.sock
+etcd:
+  image: quay.io/coreos/etcd
+  ports:
+    - "2379:2379"
+  command: --listen-client-urls http://0.0.0.0:2379 --advertise-client-urls http://0.0.0.0:2379
