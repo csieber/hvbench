@@ -1,8 +1,10 @@
 # hvbench: An open and scalable SDN hypervisor benchmark
 
-hvbench is an open and scalable OpenFlow controller/switch/hyperisor benchmark based on message type weights. A central API controls distributed message generators (acting as switches or controllers) and run-time statistics such as delay are fed back to the API or external programs.
+hvbench is an open and scalable OpenFlow controller/switch/hyperisor benchmark based on message type weights. A central API controls distributed message generators (acting as switches or controllers) and run-time statistics such as delay are fed back to the API or external programs. Check out the OSSN paper [here](http://www.lkn.ei.tum.de/forschung/publikationen/dateien/Sieber2016hvbench:Anopenand.pdf) for an in-depth overview.
 
-Following projects are related to this project:
+![Overview](/doc/overview.png)
+
+Following repositories are related to this project:
 
   - [hvbench-api](https://github.com/csieber/hvbench-api): The Python API of hvbench
   - [hvmonitor](https://github.com/csieber/hvmonitor): Monitor the resource comsumption of a network hypervisor
