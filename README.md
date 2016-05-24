@@ -20,9 +20,13 @@ Following repositories are related to this project:
   * One message type or mix of message types based on weights
   * Support for OpenFlow 1.0 (1.3 in working)
 
+## TUTORIALS
+
+See [hvbench-tutorial](https://github.com/csieber/hvbench-tutorial) for tutorials on how to set-up and operate hvbench.
+
 ## QUICKSTART
 
-See [QUICKSTART.md](QUICKSTART.md).
+See [QUICKSTART.md](QUICKSTART.md). Setting up and operating hvbench is rather complex, we recommend to follow the tutorials first.
 
 ## COMPILE & DOCKER BUILD
 
