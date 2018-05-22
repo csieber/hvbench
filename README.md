@@ -1,6 +1,6 @@
 # hvbench: An open and scalable SDN hypervisor benchmark
 
-hvbench is an open and scalable OpenFlow controller/switch/hyperisor benchmark based on distributed message generators. A central API configures the message generators (which act as switches or controllers) and collects run-time statistics such as the response delay. Check out the OSSN paper [here](http://www.lkn.ei.tum.de/forschung/publikationen/dateien/Sieber2016hvbench:Anopenand.pdf) for an in-depth overview.
+hvbench is an open and scalable OpenFlow controller/switch/hyperisor benchmark based on distributed message generators. A central API configures the message generators (which act as switches or controllers) and collects run-time statistics such as the response delay. Check out the OSSN paper [here](https://mediatum.ub.tum.de/doc/1415919/file.pdf) for an in-depth overview.
 
 ![Overview](/doc/overview.png)
 
