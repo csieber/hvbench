@@ -5,7 +5,7 @@
 First clone the repository:
 
 ```bash
-git clone https://git.lkn.ei.tum.de/VSDN-hvbench/hvbench.git
+git clone https://github.com/csieber/hvbench
 ```
 
 Spin up the virtual machine (this might take a while):
